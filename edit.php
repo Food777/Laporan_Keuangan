@@ -45,16 +45,85 @@ if(isset($_POST['submit'])){
     <title>Edit Journal</title>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
     <style>
-        body { font-family: 'Nunito', sans-serif; background:#FFF4E1; padding:0; margin:0; }
-        .container { width:400px; margin:50px auto; background:#FFE6B8; padding:30px; border-radius:15px; box-shadow:0 6px 15px rgba(0,0,0,0.1); }
-        h2 { text-align:center; color:#7D4E2A; margin-bottom:20px; }
-        .form-group { margin-bottom:15px; }
-        label { display:block; font-weight:bold; margin-bottom:5px; color:#7D4E2A; }
-        input, select { width:100%; padding:12px; border-radius:8px; border:1px solid #FFB74D; }
-        button { width:100%; padding:12px; background:#FFA726; color:white; font-weight:bold; border:none; border-radius:8px; cursor:pointer; margin-top:10px; transition:0.3s; }
-        button:hover { background:#FF8C42; }
-        a { display:block; text-align:center; margin-top:10px; color:#7D4E2A; text-decoration:none; }
-    </style>
+    body {
+        font-family: 'Nunito', sans-serif;
+        background: #FFFFFF;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        width: 420px;
+        margin: 60px auto;
+        background: #FFFFFF;
+        padding: 30px;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+        text-align: center;
+        color: #1565C0;
+        margin-bottom: 25px;
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 6px;
+        color: #1565C0;
+    }
+
+    input, select {
+        width: 100%;
+        padding: 10px;
+        border-radius: 6px;
+        border: 1px solid #B3D7FF;
+        font-family: 'Nunito', sans-serif;
+        box-sizing: border-box;
+    }
+
+    input:focus, select:focus {
+        outline: none;
+        border-color: #42A5F5;
+        box-shadow: 0 0 0 2px rgba(66,165,245,0.2);
+    }
+
+    button {
+        width: 100%;
+        padding: 12px;
+        background: #42A5F5;
+        color: #FFFFFF;
+        font-weight: bold;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        margin-top: 10px;
+        transition: 0.3s;
+    }
+
+    button:hover {
+        background: #1E88E5;
+    }
+
+    a {
+        display: block;
+        text-align: center;
+        margin-top: 15px;
+        color: #1565C0;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+</style>
+
 </head>
 <body>
 
